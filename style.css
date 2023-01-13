@@ -1,0 +1,434 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+html,
+body{
+  width:100vw;
+  height: 100vh;
+  overflow-x:hidden;
+  background-color: #000;
+}
+
+#one{
+    background-color: #ffd200;
+    height:100vh;
+    width: 100vw;
+    
+}
+#first{
+    background-color: #ffd200;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+ 
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+
+.firsth1{
+    font-size: 80px;
+    font-weight: lighter;
+    line-height: 80px;
+    margin-top: 120px;
+    margin-left: 150px;
+    font-family: "ubuntu";
+}
+.firstpara{
+    font-size: 28px;
+    font-weight: lighter;
+    margin-top: 60px;
+    margin-left: 150px;
+    font-family: "ubuntu";
+
+}
+.taskam{
+    font-weight: 1000;
+    font-family: "ubuntu";
+    
+}
+.firstpara2{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 50px;
+  margin-left: 150px;
+    font-family: "ubuntu";
+
+}
+.secondpara2{
+    font-size: 20px;
+    font-weight: lighter;
+  font-family: "ubuntu";
+  margin-right: 20px;
+ 
+
+}
+.secondpara{
+    font-size: 28px;
+    font-weight: lighter;
+    margin-left: 150px;
+    font-family: "ubuntu";
+
+}
+.apple {
+    width: 140px;
+    
+  
+}
+.google{
+    width: 140px;
+   margin-left: 20px;
+}
+
+.imgdiv1{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.playandApplestore{
+ 
+   margin-left: 18em;
+   margin-top: -42px;
+   justify-content: space-between;
+   
+}
+.navigate{
+    color: #000;
+    text-align: center;
+    font-family: 'ubuntu';
+    left: 22em;
+    bottom: 3em;
+    position: relative;
+    z-index: 9;
+    
+}
+
+
+
+.img1{
+    
+    width: 600px;
+    position: relative;
+    z-index: 1;
+    margin-right: 5em;
+    margin-top: 100px;
+  
+}
+
+#second{
+    background-color: #fff;
+    border-top: #000 3px solid;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    border-bottom: #000 3px solid;
+}
+
+.img2{
+    margin-top: 100px;
+    width: 600px;
+    margin-left: 80px;
+
+  
+    
+}
+.icon{
+    width: 100px;
+    margin-left: 150px;
+    margin-top: -4em;
+
+}
+.secondplayandApplestore{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4em;
+    justify-content: space-between;
+  
+  
+}
+.seconddiv{
+    margin-top: 260px;
+    margin-left: 14em;
+}
+.navigate2{
+    color: #000;
+    text-align: center;
+    font-family: 'ubuntu';
+  right: 5.5em;
+    position: relative;
+    top: 0.5em;
+    z-index: 9;
+}
+.iconsecondpara{
+    margin-top: 200px;
+}
+.moveall{
+    margin-top: 4em;
+}
+
+.imageandpara{
+    margin-left: -15em;
+    display: flex;
+    flex-direction: row;
+}
+#third{
+    background-color: #ffd200;
+    border-top: #000 3px solid;
+    height: 100vh;
+    width: 100vw;
+    
+  
+}
+.thirdpara3{
+    font-size: 24px;
+    font-weight: lighter;
+   
+    font-family: "ubuntu";
+    
+
+}
+.thirdpara2{
+    font-size: 20px;
+    font-weight: lighter;
+   
+    font-family: "ubuntu";
+}
+.thirdplayandApplestore{
+    display: flex;
+    flex-direction: row;
+}
+.img3{
+    width: 700px;
+    position: relative;
+    z-index: 1;
+
+}
+.imgdiv3{
+    margin-top: -2.8em;
+    margin-left: em;
+}
+.icon2{
+    width: 100px;
+    margin-top: 120px;
+    margin-left: 150px;
+   
+   
+}
+.movedown{
+   margin-top: 260px;
+}
+.navigate3{
+    color: #000;
+    text-align: center;
+    font-family: 'ubuntu';
+    }
+    
+#fourth{
+    background-color: #fff;
+    border-top: #000 3px solid;
+    height: 100vh;
+    width: 100vw;
+}
+.fourthpara2{
+    font-size: 28px;
+    font-weight: lighter;
+    margin-left: 150px;
+    margin-top: 150px;
+    font-family: "ubuntu";
+}
+.box{
+    width: 450px;
+    height: 70px;
+    border-radius: 10px;
+    border: #000 2px solid;
+   margin-right: -2.9em;
+    padding: 20px;
+   flex-direction: row;
+   margin-left: 10px;
+   margin-top: 6px;
+   display: flex;
+   align-items: center;
+}
+.input{
+    flex: 2;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding-right:5px ;
+    padding-left:5px ;
+    font-family: "ubuntu";
+    width: 250px;
+    
+}
+button{
+    background-color: #000;
+    height: 50px;
+    width: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+   
+    margin-left: 6em;
+}
+
+.img4{
+    margin-top: 5em;
+    width: 700px;
+    margin-left: 2em;
+  
+}
+#five{
+    background-color: #000;
+    height: 100vh;
+    width: 100vw;
+}
+.black{
+    width: 90em;
+    height: 200px;
+    border: #ffd200 3px solid;
+    border-radius: 20px;
+    position: relative;
+   top: 10em;
+    margin-left: 140px;
+    display: flex;
+    flex-direction: row;
+    
+    
+   }
+.black2{
+    width: 20em;
+    height: 195px;
+    border-right: #ffd200 3px solid;
+}
+.taskamlogo{
+    width: 250px;
+    margin-top: 18px;
+    margin-left: 1em;
+}
+.footer{
+    font-size: 20px;
+        font-weight: lighter;
+        margin-top: 2em;
+        margin-left: 5em;
+        font-family: "ubuntu";
+        color: #fff ;
+        line-height: 28px;
+    }
+    .follow{
+        font-size: 20px;
+            font-weight: lighter;
+            margin-top: 2em;
+            margin-left: 11em;
+            font-family: "ubuntu";
+            color: #fff ;
+            line-height: 28px;
+        }
+.taskamyellow{
+    color: #ffd200;
+    font-family: "ubuntu";
+    font-size: 35px;
+    font-weight: lighter;
+   font-family: "ubuntu";
+    }
+ul li{
+    font-size: 18px;
+    font-weight: lighter;
+    color: #fff;
+    cursor: pointer;
+    padding: 7px;
+    font-family: "ubuntu";
+    list-style-type: none;
+}
+.arrow1{
+position: relative; 
+margin-left: 20em;
+text-decoration: none;
+}
+.arrow2{
+  position: relative; 
+text-decoration: none;
+right: 2em;
+    }
+    .arrow3{
+        position: relative; 
+        margin-left: 21em;
+        text-decoration: none;
+        top: 1em;
+          }
+          .arrow4{
+            position: relative; 
+          text-decoration: none;
+          right: 2em;
+
+              }
+.navigate5{
+    color: #fff;
+    text-align: center;
+    font-family: 'ubuntu';
+   margin-top: 20px;
+}
+
+.movetoleft{
+    margin-right: 20em;
+    display: flex;
+    flex-direction: row;  
+justify-content: flex-end;
+
+}
+.moveparadown{
+    margin-top: 25em;
+}
+.hide{
+    font-size: 18px;
+    font-weight: lighter;
+   color: #fff;
+    font-family: "ubuntu";
+}
+.socialmedia-icons{
+height: 40px;
+width: 40px;
+border-radius: 50%;
+border: solid #ffd200 3px;
+margin-left: 10px;
+margin-top: 1em;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5em;
+    cursor: pointer;
+  
+   
+}
+#hidePara1{
+    display: none;
+}
+#hidePara2{
+    display: none;
+}
+#hidePara3{
+    display: none;
+}
+#hidePara4{
+    display: none;
+}
+#hidePara5{
+    display: none;
+}
+#hidePara6{
+    display: none;
+}
